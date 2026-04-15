@@ -74,15 +74,7 @@ If you are generating a presentation for your final year project, freely copy an
 
 ---
 
-## 🏃 How to Run Live Demo
-**1. Run the auto-generated simulation:**
-```bash
-python app/inference.py
-```
 
-**2. Run with a specific CSV Signal file:**
-Use the included `sample_ecg.csv` (1x187 array) for inference:
-```bash
 python app/inference.py --input sample_ecg.csv
 ```
 ---
