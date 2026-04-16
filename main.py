@@ -53,7 +53,7 @@ def main():
     print("\n--- TESTING ARRHYTHMIA SAMPLE ---")
     run_wearable_inference(input_csv='arrhythmia_test.csv')
     
-    print("\n✅ PROJECT PIPELINE COMPLETE.")
+    print("\n PROJECT PIPELINE COMPLETED.")
 
 if __name__ == '__main__':
     main()

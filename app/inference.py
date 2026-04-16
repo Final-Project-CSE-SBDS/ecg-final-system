@@ -69,9 +69,9 @@ def run_wearable_inference(tflite_model_path='./deployment/mamba_ecg.tflite', in
     cond_name = CLASSES[predicted_idx]
     
     if predicted_idx == 0:
-        pred_text = f"NORMAL ✅"
+        pred_text = f"NORMAL "
     else:
-        pred_text = f"{cond_name.upper()} ARRHYTHMIA ⚠️"
+        pred_text = f"{cond_name.upper()} ARRHYTHMIA "
         
     print(f"\nPrediction: {pred_text}")
     print(f"Confidence: {confidence:.1f}%")
